@@ -1,61 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Letter Loomer Privacy Policy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Brick Breaker: Burst Shot</title>
   <style>
+    :root {
+      --bg: #081224;
+      --panel: rgba(255,255,255,0.05);
+      --line: rgba(255,255,255,0.12);
+      --text: #f4f7ff;
+      --muted: rgba(244,247,255,0.74);
+      --accent: #73c8ff;
+    }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "Avenir Next", "Segoe UI", sans-serif;
-      color: #2d3142;
-      background: linear-gradient(135deg, #f8e4a5 0%, #f7cf82 56%, #d8e1a8 100%);
+      font-family: "SF Pro Display", "Avenir Next", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 15% 18%, rgba(115,200,255,0.16), transparent 24%),
+        radial-gradient(circle at 80% 16%, rgba(255,153,97,0.12), transparent 18%),
+        linear-gradient(180deg, #091326 0%, #071120 100%);
+      color: var(--text);
     }
-    main {
-      width: min(900px, calc(100vw - 32px));
-      margin: 24px auto 40px;
-      background: rgba(255,255,255,0.76);
-      border: 1px solid rgba(255,255,255,0.58);
+    .wrap {
+      width: min(920px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 30px 0 64px;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .pill {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .panel {
+      padding: 32px;
       border-radius: 28px;
-      padding: 28px;
-      box-shadow: 0 24px 64px rgba(58, 45, 22, 0.14);
-      backdrop-filter: blur(14px);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.35);
+      backdrop-filter: blur(10px);
     }
-    h1 { margin-top: 0; font-size: clamp(34px, 6vw, 54px); }
-    h2 { margin-top: 28px; font-size: 24px; }
-    p, li { color: #56607a; line-height: 1.7; font-size: 17px; }
-    a { color: #4c6fb3; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(38px, 6vw, 64px);
+      letter-spacing: -0.05em;
+    }
+    .intro {
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 28px;
+      font-size: 18px;
+    }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 26px;
+      letter-spacing: -0.03em;
+    }
+    p, li {
+      color: var(--muted);
+      line-height: 1.8;
+      font-size: 17px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+    .contact {
+      margin-top: 28px;
+      padding: 22px;
+      border-radius: 22px;
+      background: rgba(115,200,255,0.08);
+      border: 1px solid rgba(115,200,255,0.22);
+    }
   </style>
 </head>
 <body>
-  <main>
-    <p><a href="./index.html">Back to Letter Loomer</a></p>
-    <h1>Privacy Policy</h1>
-    <p>Letter Loomer respects your privacy. This policy explains what information may be handled when you use the app.</p>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="pill" href="index.html">Back to Product Page</a>
+      <a class="pill" href="mailto:376551193@qq.com">376551193@qq.com</a>
+    </div>
+    <main class="panel">
+      <h1>Privacy Policy</h1>
+      <p class="intro">This Privacy Policy explains how Brick Breaker: Burst Shot may process information when you use the app. We aim to keep the game straightforward, secure, and easy to understand.</p>
 
-    <h2>Information We Collect</h2>
-    <p>Letter Loomer is designed to keep gameplay simple. The app may store local progress on your device, such as unlocked levels, stars, settings, and tutorial completion state. This information is used only to support the gameplay experience on your device.</p>
+      <h2>Information We Collect and Use</h2>
+      <p>The app only collects a device ID used for basic app operation, stability, and security. This device ID is not linked to your personal identity. Other gameplay information is stored locally on your device.</p>
 
-    <h2>Analytics and Advertising</h2>
-    <p>The app may use third-party services for analytics, attribution, or advertising support. Those services may collect technical information such as device type, app version, language, coarse usage events, or advertising-related identifiers when permitted by platform rules and your device settings.</p>
+      <h2>Children's Privacy</h2>
+      <p>If you believe a child has provided personal information in a way that should be reviewed or removed, please contact us. We will review the request and take appropriate action where reasonably possible.</p>
 
-    <h2>How Information Is Used</h2>
-    <ul>
-      <li>To save your gameplay progress and settings.</li>
-      <li>To improve game stability, usability, and content performance.</li>
-      <li>To support app operations, including optional analytics or advertising features.</li>
-    </ul>
+      <h2>Data Retention</h2>
+      <p>Information is retained only for as long as reasonably necessary to support the purposes described above, comply with legal obligations, resolve disputes, and maintain service integrity.</p>
 
-    <h2>Children's Privacy</h2>
-    <p>If the app is used by children, we aim to limit data handling to what is necessary for core functionality and compliant service operation. Parents or guardians who have questions may contact us directly.</p>
+      <h2>Your Choices</h2>
+      <p>If you have questions about privacy or data handling, please contact us by email.</p>
 
-    <h2>Data Retention</h2>
-    <p>Locally stored gameplay data remains on your device unless you remove the app or clear the app data through your device settings. Third-party partners may retain technical data according to their own policies and legal requirements.</p>
+      <h2>Policy Updates</h2>
+      <p>We may update this Privacy Policy from time to time. When changes are made, the revised version will be reflected on this page with the latest published content.</p>
 
-    <h2>Contact</h2>
-    <p>If you have privacy questions, please contact us at <a href="mailto:376551193@qq.com">376551193@qq.com</a>.</p>
-    <p><a href="./index.html">Return to the product page</a></p>
-  </main>
+      <div class="contact">
+        <p>Contact: <a href="mailto:376551193@qq.com">376551193@qq.com</a></p>
+        <p>Product Page: <a href="index.html">index.html</a></p>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
